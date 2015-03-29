@@ -1,0 +1,27 @@
+{
+  "name": "broken-build-alert",
+  "version": "1.0.0",
+  "description": "Check the status of various bamboo builds and trigger some sort of alert if the latest build is broken",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ingshtrom/broken-build-alert.git"
+  },
+  "keywords": [
+    "bamboo",
+    "alert"
+  ],
+  "author": "Alex \"Ingshtrom\" Hokanson <ingshtrom.developer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ingshtrom/broken-build-alert/issues"
+  },
+  "homepage": "https://github.com/ingshtrom/broken-build-alert",
+  "dependencies": {
+    "bamboo-api": "0.0.5",
+    "commander": "^2.7.1"
+  }
+}
